@@ -76,6 +76,7 @@ h2 {
 img {
   border: none;
   max-width: 100%;
+  border-radius: 7px;
 }
 
 .mu-readmore-btn {
@@ -525,7 +526,7 @@ img {
 }
 
 .mu-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline;
   padding: 100px 0;
   float: left;
@@ -968,6 +969,7 @@ RESERVATION SECTION
 .mu-single-gallery .mu-single-gallery-item:hover .mu-single-gallery-info {
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 1;
+  /* border-radius: 7px; */
 }
 
 .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
