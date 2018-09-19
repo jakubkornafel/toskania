@@ -442,7 +442,7 @@ img {
 	ABOUT US SECTION
 ====================*/
 
-#mu-about-us {
+#mu-about-us, #mu-oferty {
   display: inline;
   float: left;
   width: 100%;
@@ -455,6 +455,11 @@ img {
   float: left;
   width: 100%;
 }
+.mu-about-us-area2 {
+  display: inline;
+  /* float: left; */
+  width: 100%;
+}
 
 .mu-about-us-right {
   display: inline;
@@ -463,6 +468,15 @@ img {
   padding-top: 30px;
   padding-left: 15px;
   width: 100%;
+}
+.mu-about-us-right2 {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .mu-about-us-right ul {
