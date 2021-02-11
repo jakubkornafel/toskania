@@ -76,6 +76,7 @@ h2 {
 img {
   border: none;
   max-width: 100%;
+  border-radius: 7px;
 }
 
 .mu-readmore-btn {
@@ -441,7 +442,7 @@ img {
 	ABOUT US SECTION
 ====================*/
 
-#mu-about-us {
+#mu-about-us, #mu-oferty {
   display: inline;
   float: left;
   width: 100%;
@@ -454,6 +455,11 @@ img {
   float: left;
   width: 100%;
 }
+.mu-about-us-area2 {
+  display: inline;
+  /* float: left; */
+  width: 100%;
+}
 
 .mu-about-us-right {
   display: inline;
@@ -462,6 +468,15 @@ img {
   padding-top: 30px;
   padding-left: 15px;
   width: 100%;
+}
+.mu-about-us-right2 {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .mu-about-us-right ul {
@@ -525,7 +540,7 @@ img {
 }
 
 .mu-counter-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline;
   padding: 100px 0;
   float: left;
@@ -968,6 +983,7 @@ RESERVATION SECTION
 .mu-single-gallery .mu-single-gallery-item:hover .mu-single-gallery-info {
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 1;
+  /* border-radius: 7px; */
 }
 
 .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
